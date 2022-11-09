@@ -1,12 +1,11 @@
 import React from "react";
-import Home from "./Components/Home";
-
+import Footer from "../DroppingComponents/Footer";
 class App extends React.Component {
   render() {
-    return(
-      <section>
-      <Home/>
-      </section>
+    return (
+        <Footer/>
     )
-}}
+  }
+}
+
 export default App;
