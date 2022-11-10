@@ -7,9 +7,10 @@ class Footer extends React.Component {
 
     return(
 
-    <footer className=" grid grid-cols-2 pl-10 lg:grid-cols-5 lg:pr-32 lg:pl-32 border-t-2 mt-10 border-black">
+    <footer>
+        <section  className=" grid grid-cols-2 pl-10 lg:grid-cols-5 lg:pr-32 lg:pl-32 border-t-2 mt-10 border-black text-sm">
         <nav className=" pt-8">
-            <h1 className="text-2xl font-semibold  mb-6">About</h1>
+            <h1 className="text-xl font-semibold mb-6">About</h1>
             <ul className="tracking-wider leading-8">
                 <li>Goodbook</li>
                 <li>Sitemap</li>
@@ -19,7 +20,7 @@ class Footer extends React.Component {
         </nav>
 
         <nav className=" pt-8">
-            <h1 className="text-2xl font-semibold  mb-6">For Clients</h1>
+            <h1 className="text-xl font-semibold  mb-6">For Clients</h1>
             <ul className="tracking-wider leading-8">
                 <li>Payment Methods</li>
                 <li>Delivery terms</li>
@@ -29,7 +30,7 @@ class Footer extends React.Component {
         </nav>
 
         <nav className=" pt-12 lg:pt-8">
-            <h1 className="text-2xl font-semibold  mb-6">Club</h1>
+            <h1 className="text-xl font-semibold  mb-6">Club</h1>
             <ul className="tracking-wider leading-8">
                 <li>Join</li>
                 <li>Club Benefits</li>
@@ -39,8 +40,8 @@ class Footer extends React.Component {
             </ul>
         </nav>
 
-        <nav className=" pt-12  lg:pt-8">
-            <h1 className="text-2xl font-semibold mb-6">Help</h1>
+        <nav className=" pt-12 lg:pt-8">
+            <h1 className="text-xl font-semibold mb-6">Help</h1>
             <ul className="tracking-wider leading-8">
                 <li>Contact</li>
                 <li>Privacy Policy</li>
@@ -51,16 +52,18 @@ class Footer extends React.Component {
         </nav>
 
         <nav className=" pt-12  lg:pt-8">
-            <h1 className="text-2xl font-semibold mb-6"><span className="text-red">News</span>letters</h1>
+            <h1 className="text-xl font-semibold mb-6"><span className="text-red">News</span>letters</h1>
             <p className="mt-4 mb-6 w-64 text-sm">Learn about new offers and get more details by joining our news letter</p>
-            <button className="bg-red text-white w-36 h-8 border-0 rounded-md mb-4">Subscribe</button>
-            <ul className="tracking-wider leading-8 flex justify-between w-36 text-3xl">
+            <button className="bg-red text-md text-white w-36 h-10 border-0 rounded-md mb-4">Subscribe</button>
+            <ul className="tracking-wider leading-8 flex justify-between w-36 text-2xl">
                 <li><BsFacebook/></li>
                 <li><AiFillTwitterCircle/></li>
                 <li><AiFillInstagram/></li>
                 <li><AiFillYoutube/></li>
             </ul>
         </nav>
+        </section>
+        <p className="text-center mt-6 mb-4 ">2021@all reserved by <span className="text-red"> Firecut</span></p>
     </footer>
 
     )

@@ -7,8 +7,14 @@ module.exports = {
     extend: {
         colors: {
          red: "#ff0000",
-         icon: "#000000"
+         icon: "#000000",
+         yellow: "#ffcd45"
+
         },   
+
+        fontFamily: {
+          font: ["Poppins", "sans-serif"],
+      },
   },
   plugins: [],
 }

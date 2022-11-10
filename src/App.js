@@ -4,7 +4,7 @@ import Home from "./Components/Home";
 class App extends React.Component {
   render() {
     return(
-      <section>
+      <section className="font-font">
       <Home/>
       </section>
     )

@@ -1,11 +1,20 @@
 import React from "react";
 import Footer from "../DroppingComponents/Footer";
-class App extends React.Component {
+import Advert from "../DroppingComponents/Advert";
+import Shuffle from "../DroppingComponents/Shuffle";
+import Swipe from "../DroppingComponents/Swiper";
+
+class Home extends React.Component {
   render() {
     return (
-        <Footer/>
-    )
+      <main>
+        <Swipe/>
+        <Shuffle />
+        <Advert />
+        <Footer />
+      </main>
+    );
   }
 }
 
-export default App;
+export default Home;
