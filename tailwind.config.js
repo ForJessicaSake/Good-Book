@@ -15,6 +15,10 @@ module.exports = {
         fontFamily: {
           font: ["Poppins", "sans-serif"],
       },
+      width: {
+        w: "48rem",
+        wt: "100rem",
+    },
   },
   plugins: [],
 }
