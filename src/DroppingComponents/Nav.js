@@ -8,7 +8,7 @@ function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <section>
-      <nav className="pt-10 pb-6 lg:ml-6 lg:text-sm text-md">
+      <nav className="pt-4 pb-4 lg:ml-6 lg:text-sm text-md">
         <div>
           <div className="flex items-center justify-between h-16">
             <div className="flex justify-between w-screen">
