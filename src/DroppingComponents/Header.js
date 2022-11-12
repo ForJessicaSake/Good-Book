@@ -20,7 +20,7 @@ class Header extends React.Component {
 
         <p className=' mt-36 w-20 ml-48 text-red text-sm hidden lg:block'>1008 books in library</p>
 
-        <figure className="py-6 w-w bg-yellow lg:w-6/12 flex justify-center cursor-pointer lg:mt-0 ">
+        <figure className="py-6 w-96 bg-yellow lg:w-6/12 flex justify-center cursor-pointer lg:mt-0 ">
             <div className='flex justify-center items-center shadow-xl bg-white h-20 w-20 relative top-52 lg:right-16 right-6'>
             <GrPrevious className='text-3xl'/>
             </div>

@@ -45,10 +45,10 @@ export class Authors extends React.Component {
        
 </section>
         ) : (
-          <section className="grid lg:grid-cols-3 grid-cols-2 text-sm cursor-pointer">
+          <section className="grid lg:grid-cols-3 grid-cols-2 text-xs  lg:text-sm cursor-pointer">
             {authors && authors.map((authorDetails) => (
                   <article  key={authorDetails.id} className = "w-full ">
-                  <div className="text-sm bg-white shadow-xl w-44  ml-2 lg:ml-0 lg:w-72 h-10 mb-4 mt-10 flex items-center justify-center hover:bg-red hover:text-white">
+                  <div className=" bg-white shadow-xl w-40 h-12 rounded-sm  ml-2 lg:ml-0 lg:w-72 lg:h-10 mb-4 mt-10 flex items-center justify-center hover:bg-red hover:text-white">
                     <h4 className="animate-bounce">{authorDetails.name}</h4>
                   </div>
               </article>
@@ -66,7 +66,7 @@ class NewComponent extends React.Component {
       <main className="">
         <section className="flex justify-between ml-8 pr-8 pt-20 items-center">
           <h1 className="lg:text-3xl text-lg font-bold">Good Book Authors</h1>
-          <button className="bg-white shadow-xl w-32 lg:w-40 lg:text-lg text-md lg:h-16 h-12 rounded-md hover:bg-red hover:text-white">
+          <button className="bg-white shadow-xl w-32 lg:w-40 lg:text-lg text-md lg:h-16 h-12 rounded-md hover:bg-red hover:text-white hidden lg:block">
             See All
           </button>
         </section>
