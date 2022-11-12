@@ -11,6 +11,7 @@ class Home extends React.Component {
   render() {
     return (
       <main>
+      
         <Header/>
         <NewComponent/>
         <Authors/>
