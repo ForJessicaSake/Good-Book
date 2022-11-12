@@ -3,7 +3,7 @@ import Footer from "../DroppingComponents/Footer";
 import Advert from "../DroppingComponents/Advert";
 import Shuffle from "../DroppingComponents/Shuffle";
 import SimpleSlider from "../DroppingComponents/SimpleSlider";
-import NewComponent, { GetListUsers } from "../DroppingComponents/New";
+import NewComponent, { Authors } from "../DroppingComponents/Database";
 import Header from "../DroppingComponents/Header";
 
 
@@ -13,7 +13,7 @@ class Home extends React.Component {
       <main>
         <Header/>
         <NewComponent/>
-        <GetListUsers/>
+        <Authors/>
         <SimpleSlider/>
         <Shuffle />
         <Advert />

@@ -56,7 +56,7 @@ class Footer extends React.Component {
         <nav className=" pt-12  lg:pt-8">
             <h1 className="text-xl font-semibold mb-6"><span className="text-red">News</span>letters</h1>
             <p className="mt-4 mb-6 w-64 text-sm">Learn about new offers and get more details by joining our news letter</p>
-            <button className="bg-red text-md text-white w-36 h-10 border-0 rounded-md mb-4 hover:bg-yellow hover:text-white">Subscribe</button>
+            <button className="bg-red text-md text-white w-36 h-10 border-0 rounded-md mb-4 hover:bg-white hover:text-black hover:shadow-xl">Subscribe</button>
             <ul className="tracking-wider leading-8 flex justify-between w-36 text-2xl">
                 <li><BsFacebook/></li>
                 <li><AiFillTwitterCircle/></li>

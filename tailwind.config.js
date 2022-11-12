@@ -16,7 +16,7 @@ module.exports = {
           font: ["Poppins", "sans-serif"],
       },
       width: {
-        w: "48rem",
+        w: "26rem",
         wt: "100rem",
     },
   },
