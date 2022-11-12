@@ -2,7 +2,7 @@ import React from "react";
 import {IoMdHeadset} from 'react-icons/io'
 import {BsJournalBookmarkFill, BsArrowClockwise} from 'react-icons/bs'
 
-class Shuffle extends React.Component {
+class Genre extends React.Component {
   render() {
     return(
       <section className="">
@@ -41,4 +41,4 @@ class Shuffle extends React.Component {
       </section>
     )
 }}
-export default Shuffle;
+export default Genre;

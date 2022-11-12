@@ -5,9 +5,9 @@ import {GrPrevious} from 'react-icons/gr'
 class Header extends React.Component {
   render() {
     return (
-      <section className="lg:ml-10 ml-2 pt-8 lg:flex lg:justify-between grid grid-cols-1 ">
+      <section className="lg:ml-10 ml-2 pt-0 lg:flex lg:justify-between grid grid-cols-1 ">
         <figcaption className='flex flex-col justify-center ml-2'>
-          <h1 className="lg:text-4xl text-4xl font-extrabold lg:w-44 w-96 tracking-wide mb-8">
+          <h1 className="lg:text-4xl text-4xl font-extrabold lg:w-44 w-96 tracking-wide mb-8 mt-6 lg:mt-0">
             Discover the world with new Book
           </h1>
           <p className="w-56 text-sm text-red">
@@ -26,7 +26,7 @@ class Header extends React.Component {
             </div>
           <figure>
             <div className="bg-red w-24 h-24 lg:h-36 lg:w-36 rounded-full mt-72 lg:mr-16 relative top-20 right-10"></div>
-            <h1 className='lg:text-4xl text-3xl font-extrabold w-20 relative lg:left-20'>Best Sellers</h1>
+            <h1 className='lg:text-4xl text-3xl font-extrabold w-20 relative lg:left-10'>Best Sellers</h1>
           </figure>
           <figure>
             <img

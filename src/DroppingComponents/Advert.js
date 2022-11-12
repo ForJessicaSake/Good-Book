@@ -11,7 +11,7 @@ class Advert extends React.Component {
        <figcaption className="lg:w-3/5 lg:pl-24 flex flex-col justify-center pl-8 text-justify">
         <h1 className="text-4xl font-bold mb-8 mt-8">Good Book Club</h1>
         <p className="lg:w-3/6 w-72 mb-10 text-sm">Good book is the Book Shop that has online workshops available for anyone who wants to put a sell their books and also get paid while writing a book.</p>
-        <button className="bg-white shadow-xl w-48 text-lg h-14 rounded-md font-semibold hover:bg-red hover:text-white">Join</button>
+        <button className="bg-white shadow-xl w-48 text-lg h-14 rounded-md hover:bg-red hover:text-white">See all</button>
        </figcaption>
       </section>
     )

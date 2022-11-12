@@ -2,17 +2,18 @@ import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import { AiOutlineSearch } from "react-icons/ai";
 import { CiUser, CiHeart, CiShoppingCart } from "react-icons/ci";
+import {Link} from 'react-router-dom'
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <section>
-      <nav className="pt-10 pb-6 ml-6 lg:text-sm text-md">
+      <nav className="pt-10 pb-6 lg:ml-6 lg:text-sm text-md">
         <div>
           <div className="flex items-center justify-between h-16">
             <div className="flex justify-between w-screen">
               <div className="flex-shrink-0">
-                <h1 className="font-bold lg:text-sm text-xl">
+                <h1 className="font-bold lg:text-sm text-2xl ml-4 lg:ml-4">
                   Good<span className="text-red ">Book</span>
                 </h1>
               </div>
@@ -20,17 +21,11 @@ function Nav() {
                 <div className="ml-10 flex items-b space-x-4">
                   <ul className="nav-links flex justify-around w-wt font-bold">
                     <li>
-                      <a href="/book" className="">
-                        Books{" "}
-                      </a>
+                      <Link to ="/">Home</Link>
                     </li>
 
                     <li>
-                      <a href="/news">Library</a>
-                    </li>
-
-                    <li>
-                      <a href="/features">Club</a>
+                      <Link to="/community">Club</Link>
                     </li>
 
                     <li>
@@ -41,7 +36,7 @@ function Nav() {
                       <a href="/contact">Contact</a>
                     </li>
                     <li>
-                      <a href="/features">Register</a>
+                      <Link to="/community">Register</Link>
                     </li>
                   </ul>
 
@@ -63,7 +58,7 @@ function Nav() {
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="bg-black inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-black focus:ring-white"
+                className=" inline-flex items-center justify-center border-2 border-black p-2 rounded-md  focus:outline-none focus:ring-2 focus:ring-offset-2"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
@@ -119,31 +114,25 @@ function Nav() {
             <div className="md:hidden" id="mobile-menu">
               <div
                 ref={ref}
-                className="px-2 pt-2 pb-3 space-y-1 bg-black h-screen text-white"
+                className="px-0 pt-2 pb-3 space-y-1 bg-black h-screen text-white"
               >
-                <ul className="nav-links flex flex-col items-center justify-between h-96 mt-10 font-medium ">
-                <li className="mb-20">
-                      <a href="/book">
-                        Books
-                      </a>
+                <ul className="nav-links flex flex-col items-center justify-between h-5/6 mt-10 font-medium ">
+                    <li>
+                      <a href="/">Home</a>
                     </li>
 
-                    <li className="mb-20">
-                      <a href="/news">Library</a>
-                    </li>
-
-                    <li className="mb-20">
+                    <li>
                       <a href="/features">Club</a>
                     </li>
 
-                    <li className="mb-20">
+                    <li>
                       <a href="/sale">Sale</a>
                     </li>
 
-                    <li className="mb-20">
+                    <li>
                       <a href="/contact">Contact</a>
                     </li>
-                    <li className="mb-4">
+                    <li>
                       <a href="/features">Register</a>
                     </li>
                 </ul>

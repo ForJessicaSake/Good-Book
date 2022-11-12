@@ -18,6 +18,8 @@ module.exports = {
       width: {
         w: "26rem",
         wt: "39rem",
+        wtt: "48rem",
+
     },
   },
   plugins: [],
