@@ -122,7 +122,7 @@ function Nav() {
                     </li>
 
                     <li>
-                      <a href="/features">Club</a>
+                      <Link to="/community">Club</Link>
                     </li>
 
                     <li>
@@ -133,7 +133,7 @@ function Nav() {
                       <a href="/contact">Contact</a>
                     </li>
                     <li>
-                      <a href="/features">Register</a>
+                      <Link to="/community">Register</Link>
                     </li>
                 </ul>
               </div>
