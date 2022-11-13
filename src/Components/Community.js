@@ -14,19 +14,31 @@ render(){
             <p className="lg:w-3/4 text-md w-80 mb-8 lg:mb-0">
               We are on a mission to give every human fair access to book
               collections and the social connectedness and support to build a
-              strong book community in the future
+              strong book community in the future. We pay for everything, fill the form below and get an email from us in two buisness days
             </p>
-            <form className="lg:flex items-center hidden mt-8">
+            <form className="">
+            <div className="lg:flex items-center hidden mt-8">
               <input
-                className="border-2 w-64 h-8 border-black shadow-xl"
+                className="border-2 w-72 h-8 border-black shadow-xl rounded-sm"
                 placeholder="Enter your name"
+              ></input>
+              </div>
+              <div className="lg:flex items-center hidden mt-8">
+              <input
+                className="border-2 w-72 h-8 border-black shadow-x rounded-sml"
+                placeholder="Enter your email"
+              ></input>
+              </div>
+              <div className="lg:flex items-center hidden mt-8">
+              <input
+                className="border-2 w-72 h-8 border-black shadow-x rounded-sml"
+                placeholder="Enter your book title"
               ></input>
 
               <button className="w-20 h-8 text-sm bg-black text-white flex items-center justify-center">
-                Sign Up
-              </button>
+Submit              </button>
+            </div>
             </form>
-
           </hgroup>
           <img src={humprey} alt="" className=" w-96" />
         </section>

@@ -7,7 +7,7 @@ class Header extends React.Component {
     return (
       <section className="lg:ml-10 ml-2 pt-0 lg:flex lg:justify-between grid grid-cols-1 ">
         <figcaption className='flex flex-col justify-center ml-2'>
-          <h1 className="lg:text-4xl text-4xl font-extrabold lg:w-44 w-96 tracking-wide mb-8 mt-6 lg:mt-0">
+          <h1 className="lg:text-4xl text-4xl font-extrabold lg:w-44 w-80 tracking-wide mb-8 mt-6 lg:mt-0">
             Discover the world with new Book
           </h1>
           <p className="w-56 text-sm text-red">

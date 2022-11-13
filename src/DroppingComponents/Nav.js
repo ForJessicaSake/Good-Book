@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import {useState } from "react";
 import { Transition } from "@headlessui/react";
 import { AiOutlineSearch } from "react-icons/ai";
 import { CiUser, CiHeart, CiShoppingCart } from "react-icons/ci";
@@ -25,7 +25,7 @@ function Nav() {
                     </li>
 
                     <li>
-                      <Link to="/community">Club</Link>
+                      <a href="/community">Club</a>
                     </li>
 
                     <li>
@@ -36,7 +36,7 @@ function Nav() {
                       <a href="/contact">Contact</a>
                     </li>
                     <li>
-                      <Link to="/community">Register</Link>
+                      <Link to="/community">Submit</Link>
                     </li>
                   </ul>
 
@@ -122,7 +122,7 @@ function Nav() {
                     </li>
 
                     <li>
-                      <Link to="/community">Club</Link>
+                      <a href="/community">Club</a>
                     </li>
 
                     <li>
@@ -133,7 +133,7 @@ function Nav() {
                       <a href="/contact">Contact</a>
                     </li>
                     <li>
-                      <Link to="/community">Register</Link>
+                      <a href="/community">Submit</a>
                     </li>
                 </ul>
               </div>
