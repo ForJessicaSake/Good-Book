@@ -1,8 +1,8 @@
-import {useState } from "react";
+import { useState } from "react";
 import { Transition } from "@headlessui/react";
 import { AiOutlineSearch } from "react-icons/ai";
 import { CiUser, CiHeart, CiShoppingCart } from "react-icons/ci";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +21,7 @@ function Nav() {
                 <div className="ml-10 flex items-b space-x-4">
                   <ul className="nav-links flex justify-around w-wt font-bold">
                     <li>
-                      <Link to ="/">Home</Link>
+                      <Link to="/">Home</Link>
                     </li>
 
                     <li>
@@ -117,31 +117,31 @@ function Nav() {
                 className="px-0 pt-2 pb-3 space-y-1 bg-black h-screen text-white"
               >
                 <ul className="nav-links flex flex-col items-center justify-between h-5/6 mt-10 font-medium ">
-                    <li>
-                      <a href="/">Home</a>
-                    </li>
+                  <li>
+                    <a href="/">Home</a>
+                  </li>
 
-                    <li>
-                      <a href="/community">Club</a>
-                    </li>
+                  <li>
+                    <a href="/community">Club</a>
+                  </li>
 
-                    <li>
-                      <a href="/sale">Sale</a>
-                    </li>
+                  <li>
+                    <a href="/sale">Sale</a>
+                  </li>
 
-                    <li>
-                      <a href="/contact">Contact</a>
-                    </li>
-                    <li>
-                      <a href="/community">Submit</a>
-                    </li>
+                  <li>
+                    <a href="/contact">Contact</a>
+                  </li>
+                  <li>
+                    <a href="/community">Submit</a>
+                  </li>
                 </ul>
               </div>
             </div>
           )}
         </Transition>
       </nav>
-      <hr className="border-black"/>
+      <hr className="border-black" />
     </section>
   );
 }

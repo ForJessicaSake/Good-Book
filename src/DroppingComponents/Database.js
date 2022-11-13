@@ -36,17 +36,18 @@ export class Authors extends React.Component {
     if (error) {
       return (
         <h1 className="ml-8 text-sm mt-4 mb-4">
-          Attention! There is a problem with the Web API. Kindly check your internet connection and try again soon.
+          Attention! There is a problem with the Web API. Kindly check your
+          internet connection and try again soon.
         </h1>
       );
     }
 
-    const handleDelete =(id)=>{
-      const newAuthors = authors.filter((author)=>{
-        return author.id !== id
-      })
-      this.setState({authors: newAuthors})
-    }
+    const handleDelete = (id) => {
+      const newAuthors = authors.filter((author) => {
+        return author.id !== id;
+      });
+      this.setState({ authors: newAuthors });
+    };
 
     return (
       <main className="lg:ml-8 ml-4 mb-20">
@@ -76,8 +77,12 @@ export class Authors extends React.Component {
                       </p>
                     </div>
 
-                     <figure className="" ><AiOutlineDelete onClick={()=>handleDelete(authorDetails.id)} /></figure> 
-                     </div>
+                    <figure className="">
+                      <AiOutlineDelete
+                        onClick={() => handleDelete(authorDetails.id)}
+                      />
+                    </figure>
+                  </div>
                 </article>
               ))}
           </section>
@@ -106,13 +111,16 @@ class NewComponent extends React.Component {
       <main className="">
         <section className="flex justify-between ml-8 pr-8 pt-20 items-center">
           <div className="">
-          <h1 className="lg:text-3xl text-2xl font-bold">
-            Good Book Authors Community
-          </h1>
-          <p className="lg:w-2/4 w-full lg:text-sm text-sm mt-6 leading-relaxed tracking-wide">Here are the top books that our content writers have submitted in the past week. Simply filter out the other books below until only your favorite remains to help us decide which book to sponsor.</p>
-
+            <h1 className="lg:text-3xl text-2xl font-bold">
+              Good Book Authors Community
+            </h1>
+            <p className="lg:w-2/4 w-full lg:text-sm text-sm mt-6 leading-relaxed tracking-wide">
+              Here are the top books that our content writers have submitted in
+              the past week. Simply filter out the other books below until only
+              your favorite remains to help us decide which book to sponsor.
+            </p>
           </div>
-         
+
           <button className="bg-white shadow-xl w-32 lg:w-40 lg:text-lg text-md lg:h-16 h-12 rounded-md hover:bg-red hover:text-white hidden lg:block">
             Vote
           </button>
