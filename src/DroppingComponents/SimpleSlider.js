@@ -36,34 +36,34 @@ export default class SimpleSlider extends Component {
 
         <Slider {...settings} className="h-full lg:mr-20 object-cover flex justify-between mt-14 lg:mt-32 ml-8">
         <div>
-        <img src = {WillaoftheWood} alt='The Glass Woman book cover' className="object-fit lg:h-52 h-28"/>
+        <img src = {WillaoftheWood} alt='The Glass Woman book cover' className="object-fit lg:h-48 h-28"/>
           </div>
           <div>
-            <img src = {TheNaughtSpectre} alt='The Glass Woman book cover' className="object-contain lg:h-52 h-28"/>
+            <img src = {TheNaughtSpectre} alt='The Glass Woman book cover' className="object-contain lg:h-48 h-28"/>
           </div>
 
           <div>
-            <img src = {THEQUESTOFEWILAN} alt='The Glass Woman book cover' className="object-contain lg:h-52 h-28"/>
+            <img src = {THEQUESTOFEWILAN} alt='The Glass Woman book cover' className="object-contain lg:h-48 h-28"/>
           </div>
           <div>
 
-          <img src = {sevenHusbnd} alt='Seven Husband of Evlyn book cover' className="object-contain lg:h-52 h-28 ml-3"/>
+          <img src = {sevenHusbnd} alt='Seven Husband of Evlyn book cover' className="object-contain lg:h-48 h-28 ml-2"/>
           </div>
       
           <div>
-          <img src = {littleWomen} alt='Little women book cover' className="object-contain lg:h-52 h-28"/>
+          <img src = {littleWomen} alt='Little women book cover' className="object-contain lg:h-48 h-28"/>
           </div>
           <div>
           <img src = {TheGardenofLostSecrets} alt='Harpers Fall book cover' className="object-contain lg:h-52 h-28"/>
           </div>
           <div>
-          <img src = {LoveHypothesis} alt='Love Hypothesis book cover' className="object-contain lg:h-52 h-28"/>
+          <img src = {LoveHypothesis} alt='Love Hypothesis book cover' className="object-contain lg:h-48 h-28"/>
           </div>
           <div>
-          <img src = {HarpersFall} alt='Harpers Fall book cover' className="object-contain lg:h-52 h-28 ml-4"/>
+          <img src = {HarpersFall} alt='Harpers Fall book cover' className="object-contain lg:h-48 h-28 ml-4"/>
           </div> 
            <div>
-          <img src = {ThosewhoPrey} alt='Those who prey book cover' className="object-contain lg:h-52 h-28"/>
+          <img src = {ThosewhoPrey} alt='Those who prey book cover' className="object-contain lg:h-48 h-28"/>
           </div>
         </Slider>
         
