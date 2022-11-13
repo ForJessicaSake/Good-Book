@@ -35,8 +35,8 @@ export class Authors extends React.Component {
     // in case of error, component will display an error message
     if (error) {
       return (
-        <h1 className="ml-8 text-sm mt-4">
-          Attention! There is a problem with the Web API.
+        <h1 className="ml-8 text-sm mt-4 mb-4">
+          Attention! There is a problem with the Web API. Kindly check your internet connection and try again soon.
         </h1>
       );
     }
@@ -52,7 +52,7 @@ export class Authors extends React.Component {
       <main className="lg:ml-8 ml-4 mb-20">
         {loading ? (
           <section>
-            <h2 className="flex items-center text-sm">
+            <h2 className="flex items-center text-sm ml-4">
               Fetching our content writers
               <span className=" animate-bounce w-12 h-12 ml-6 flex justify-center items-center bg-white rounded-full shadow-xl">
                 <BsArrowDown className="text-xl" />
@@ -67,7 +67,7 @@ export class Authors extends React.Component {
                   key={authorDetails.id}
                   className="w-full flex justify-between "
                 >
-                  <div className="animate-pulse bg-white shadow-xl w-full h-20 rounded-sm  lg:ml-0 lg:w-72 lg:h-20 p-2 mb-4 mt-16 flex justify-between items-center">
+                  <div className="animate-pulse bg-white shadow-xl w-full h-20 rounded-sm lg:ml-0 lg:w-72 lg:h-20 p-2 mb-4 mt-16 flex justify-between items-center">
                     <div className=" flex flex-col items-center justify-center ml-2">
                       <h4 className="mb-2">{authorDetails.name}</h4>
                       <p className="">
