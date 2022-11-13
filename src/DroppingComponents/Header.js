@@ -7,7 +7,7 @@ class Header extends React.Component {
     return (
       <section className="lg:ml-10 ml-2 pt-0 lg:flex lg:justify-between grid grid-cols-1 ">
         <figcaption className='flex flex-col justify-center ml-2'>
-          <h1 className="lg:text-4xl text-4xl font-extrabold lg:w-44 w-80 tracking-wide mb-8 mt-6 lg:mt-0">
+          <h1 className="lg:text-4xl text-4xl font-extrabold lg:w-44 w-full tracking-wide mb-8 mt-6 lg:mt-0">
             Discover the world with new Book
           </h1>
           <p className="w-56 text-sm text-red">
@@ -20,7 +20,7 @@ class Header extends React.Component {
 
         <p className=' mt-36 w-20 ml-48 text-red text-sm hidden lg:block'>1008 books in library</p>
 
-        <figure className="py-6 w-96 bg-yellow lg:w-6/12 flex justify-center cursor-pointer lg:mt-0 ">
+        <figure className="py-6 w-full bg-yellow lg:w-6/12 flex justify-center cursor-pointer lg:mt-0 ">
             <div className='flex justify-center items-center shadow-xl bg-white h-20 w-20 relative top-52 lg:right-16 right-6 rounded-sm'>
             <GrPrevious className='text-3xl'/>
             </div>

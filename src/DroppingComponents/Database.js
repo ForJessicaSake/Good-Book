@@ -60,15 +60,15 @@ export class Authors extends React.Component {
             </h2>
           </section>
         ) : (
-          <section className="grid lg:grid-cols-3 grid-cols-2 text-xs  lg:text-sm cursor-pointer">
+          <section className="grid lg:grid-cols-3 grid-col-1 text-xs pr-2  lg:text-sm cursor-pointer">
             {authors &&
               authors.map((authorDetails) => (
                 <article
                   key={authorDetails.id}
                   className="w-full flex justify-between "
                 >
-                  <div className="animate-pulse bg-white shadow-xl w-52 h-20 rounded-sm  lg:ml-0 lg:w-72 lg:h-20 p-2 mb-4 mt-16 flex justify-between items-center">
-                    <div className=" flex flex-col items-center justify-center">
+                  <div className="animate-pulse bg-white shadow-xl w-full h-20 rounded-sm  lg:ml-0 lg:w-72 lg:h-20 p-2 mb-4 mt-16 flex justify-between items-center">
+                    <div className=" flex flex-col items-center justify-center ml-2">
                       <h4 className="mb-2">{authorDetails.name}</h4>
                       <p className="">
                         <span className="font-bold">Title: </span>
@@ -109,7 +109,7 @@ class NewComponent extends React.Component {
           <h1 className="lg:text-3xl text-lg font-bold">
             Good Book Authors Community
           </h1>
-          <p className="lg:w-2/4 w-72 lg:text-sm text-sm mt-6 leading-relaxed tracking-wide">Here are the top books that our content writers have submitted in the past week. Simply filter out the other books below until only your favorite remains to help us decide which book to sponsor.</p>
+          <p className="lg:w-2/4 w-full lg:text-sm text-sm mt-6 leading-relaxed tracking-wide">Here are the top books that our content writers have submitted in the past week. Simply filter out the other books below until only your favorite remains to help us decide which book to sponsor.</p>
 
           </div>
          
