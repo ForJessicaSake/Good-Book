@@ -42,13 +42,10 @@ export class Authors extends React.Component {
     }
 
     const handleDelete =(id)=>{
-      fetch("https://jsonplaceholder.typicode.com/users" + id, {
-        method: "DELETE"
-      }).then(()=>{
-        console.log("author book voted out")
-      }).catch((err)=>{
-        console.log(err.message)
+      const newAuthors = authors.filter((author)=>{
+        return author.id !== id
       })
+      this.setState({authors: newAuthors})
     }
     return (
       <main className="lg:ml-8 ml-4 mb-20">
