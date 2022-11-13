@@ -106,7 +106,7 @@ class NewComponent extends React.Component {
       <main className="">
         <section className="flex justify-between ml-8 pr-8 pt-20 items-center">
           <div className="">
-          <h1 className="lg:text-3xl text-lg font-bold">
+          <h1 className="lg:text-3xl text-2xl font-bold">
             Good Book Authors Community
           </h1>
           <p className="lg:w-2/4 w-full lg:text-sm text-sm mt-6 leading-relaxed tracking-wide">Here are the top books that our content writers have submitted in the past week. Simply filter out the other books below until only your favorite remains to help us decide which book to sponsor.</p>
