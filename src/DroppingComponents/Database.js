@@ -35,7 +35,7 @@ export class Authors extends React.Component {
     // in case of error, component will display an error message
     if (error) {
       return (
-        <h1 className="ml-8 text-sm">
+        <h1 className="ml-8 text-sm mt-4">
           Attention! There is a problem with the Web API.
         </h1>
       );
@@ -47,12 +47,13 @@ export class Authors extends React.Component {
       })
       this.setState({authors: newAuthors})
     }
+
     return (
       <main className="lg:ml-8 ml-4 mb-20">
         {loading ? (
           <section>
             <h2 className="flex items-center text-sm">
-              Fetching our content writers{" "}
+              Fetching our content writers
               <span className=" animate-bounce w-12 h-12 ml-6 flex justify-center items-center bg-white rounded-full shadow-xl">
                 <BsArrowDown className="text-xl" />
               </span>
