@@ -54,7 +54,7 @@ export default class SimpleSlider extends Component {
           <img src = {littleWomen} alt='Little women book cover' className="object-contain lg:h-48 h-28"/>
           </div>
           <div>
-          <img src = {TheGardenofLostSecrets} alt='Harpers Fall book cover' className="object-contain lg:h-52 h-28"/>
+          <img src = {TheGardenofLostSecrets} alt='Harpers Fall book cover' className="object-contain lg:h-48 h-28"/>
           </div>
           <div>
           <img src = {LoveHypothesis} alt='Love Hypothesis book cover' className="object-contain lg:h-48 h-28"/>
