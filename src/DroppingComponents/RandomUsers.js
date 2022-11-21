@@ -27,14 +27,27 @@ export default class RandomUsers extends Component {
   }
 
   render() {
+
     // Using the Destructuring assignment, we define three variables used in the component
     const { users, loading, error } = this.state;
 
+      // in case of error, component will display an error message
+      if (error) {
+        return (
+          <h1 className="ml-8 text-sm mt-4 mb-4">
+            Attention! There is a problem with the Web API. Kindly check your
+            internet connection and try again soon.
+          </h1>
+        );
+      }
+
     return (
       <main>
+     <h1 className="text-center text-black text-xl mt-12 font-bold mb-6 lg:mb-10">Say Hi To Our Top Book Readers</h1>
+
         {loading ? (
           <section>
-            <h2 className="flex items-center text-sm ml-2 lg:ml-8 mr-2">
+            <h2 className="flex items-center text-sm ml-10 mr-2 mb-6">
               Fetching our content writers
               <span className=" animate-bounce w-12 h-12 ml-6 flex justify-center items-center bg-white rounded-full shadow-xl">
                 <BsArrowDown className="text-xl" />

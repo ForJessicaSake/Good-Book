@@ -51,6 +51,7 @@ export class Authors extends React.Component {
 
     return (
       <main className="lg:ml-8 ml-4 mb-20">
+        
         {loading ? (
           <section>
             <h2 className="flex items-center text-sm ml-4">
@@ -62,12 +63,14 @@ export class Authors extends React.Component {
           </section>
         ) : (
           <section className="grid lg:grid-cols-3 grid-col-1 text-xs pr-2  lg:text-sm cursor-pointer">
+
             {authors &&
               authors.map((authorDetails) => (
                 <article
                   key={authorDetails.id}
                   className="w-full flex justify-between "
                 >
+
                   <div className="animate-pulse bg-white shadow-xl w-full h-20 rounded-sm lg:ml-0 lg:w-72 lg:h-20 p-2 mb-4 mt-16 flex justify-between items-center">
                     <div className=" flex flex-col items-center justify-center ml-2">
                       <h4 className="mb-2">{authorDetails.name}</h4>
