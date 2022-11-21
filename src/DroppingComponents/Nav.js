@@ -29,12 +29,13 @@ function Nav() {
                     </li>
 
                     <li>
+                      <a href="/authors">Authors</a>
+                    </li>
+                    
+                    <li>
                       <a href="/sale">Sale</a>
                     </li>
-
-                    <li>
-                      <a href="/contact">Contact</a>
-                    </li>
+                  
                     <li>
                       <Link to="/community">Submit</Link>
                     </li>
@@ -124,14 +125,14 @@ function Nav() {
                   <li>
                     <a href="/community">Club</a>
                   </li>
+                  <li>
+                    <a href="/authors">Authors</a>
+                  </li>
 
                   <li>
                     <a href="/sale">Sale</a>
                   </li>
 
-                  <li>
-                    <a href="/contact">Contact</a>
-                  </li>
                   <li>
                     <a href="/community">Submit</a>
                   </li>
