@@ -58,7 +58,7 @@ export default class RandomUsers extends Component {
                         Last Name: {user.name.last}
                       </h4>                      
                     </div>
-                    <button className=' bg-yellow text-white shadow-xl w-32 lg:w-40 lg:text-lg text-md lg:h-12 h-12 rounded-md hover:bg-red hover:text-white hidden lg:block' onClick={() => window.location.reload(true)}>Say Hi</button>
+                    <button className=' bg-yellow text-white shadow-xl w-32 lg:w-40 lg:text-lg text-md lg:h-12 h-12 rounded-md hover:bg-red hover:text-white' onClick={() => window.location.reload(true)}>Say Hi</button>
                   </div>
                 </article>
               ))}
