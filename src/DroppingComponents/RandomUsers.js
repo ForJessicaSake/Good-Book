@@ -52,10 +52,10 @@ export default class RandomUsers extends Component {
                     <div className="">
                      <img src={user.picture.medium} alt="user" className="w-40 mb-6"/>
                       <h4 className="mb-4 font-semibold">
-                        First Name:{user.name.first}
+                        First Name: {user.name.first}
                       </h4>
                       <h4 className="font-semibold mb-6">
-                        Last Name:{user.name.last}
+                        Last Name: {user.name.last}
                       </h4>                      
                     </div>
                     <button className=' bg-yellow text-white shadow-xl w-32 lg:w-40 lg:text-lg text-md lg:h-12 h-12 rounded-md hover:bg-red hover:text-white hidden lg:block' onClick={() => window.location.reload(true)}>Say Hi</button>
