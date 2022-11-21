@@ -38,7 +38,7 @@ class Community extends React.Component {
         <section className="lg:flex lg:justify-between lg:items-center lg:ml-8 ml-2">
           <hgroup className=" lg:w-2/4">
             <h1 className="lg:text-8xl text-5xl font-bold mt-2 lg:mt-0 mb-8">
-              Join Us.{" "}
+              Join Us.
             </h1>
             <p className="lg:w-3/4 text-md w-full mb-8 lg:mb-0">
               We are on a mission to give every human fair access to book
@@ -66,13 +66,14 @@ class Community extends React.Component {
                 ></input>
 
                 <button className="w-20 h-8 text-sm bg-black text-white flex items-center justify-center">
-                  Submit{" "}
+                  Submit
                 </button>
               </div>
             </form>
           </hgroup>
           <img src={humprey} alt="" className=" w-96" />
         </section>
+
         <section className="mt-14">
           <Genre />
         </section>
