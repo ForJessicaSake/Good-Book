@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { BsArrowDown } from "react-icons/bs";
+import Advert from "./Advert";
+import Footer from "./Footer";
 
 export default class RandomUsers extends Component {
   // definition of variables
@@ -77,6 +79,7 @@ export default class RandomUsers extends Component {
               ))}
           </section>
         )}
+        <Footer/>
       </main>
     );
   }
